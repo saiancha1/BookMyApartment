@@ -64,7 +64,7 @@ public sealed class Booking : Entity
     {
         if (Status != BookingStatus.Reserved)
         {
-            return Result.Failure(BookingErrors.NotPending);
+            return Result.Failure(BookingErrors.NotReserved);
         }
 
         Status = BookingStatus.Confirmed;
@@ -78,7 +78,7 @@ public sealed class Booking : Entity
     {
         if (Status != BookingStatus.Reserved)
         {
-            return Result.Failure(BookingErrors.NotPending);
+            return Result.Failure(BookingErrors.NotReserved);
         }
 
         Status = BookingStatus.Rejected;

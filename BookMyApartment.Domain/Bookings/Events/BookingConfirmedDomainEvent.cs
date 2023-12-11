@@ -2,4 +2,4 @@
 
 namespace BookMyApartment.Domain.Bookings.Events;
 
-public sealed record BookingConfirmedDomainEvent() : IDomainEvent;
+public sealed record BookingConfirmedDomainEvent(Guid Id) : IDomainEvent;
