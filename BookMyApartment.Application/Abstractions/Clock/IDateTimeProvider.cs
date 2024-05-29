@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookMyApartment.Application.Abstractions.Clock
 {
-    interface IDateTimeProvider
+    public interface IDateTimeProvider
     {
         DateTime UtcNow { get; }
     }
