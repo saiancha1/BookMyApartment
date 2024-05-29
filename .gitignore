@@ -1,1 +1,5 @@
 ﻿BookMyApartment.Application/obj
+.vs
+BookMyApartment.Application/bin
+BookMyApartment.Domain/bin
+BookMyApartment.Domain/obj

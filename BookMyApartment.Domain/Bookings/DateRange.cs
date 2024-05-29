@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices.JavaScript;
-
-namespace BookMyApartment.Domain.Bookings;
+﻿namespace BookMyApartment.Domain.Bookings;
 
 public record DateRange
 {
